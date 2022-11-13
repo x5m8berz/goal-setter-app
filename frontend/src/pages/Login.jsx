@@ -4,7 +4,6 @@ import {FaSignInAlt} from 'react-icons/fa'
 
 function Login() {
   const [formData, setFormData] = useState({
-    name: '',
     email: '',
     password: '',
   })
@@ -29,7 +28,7 @@ function Login() {
       <h1>
         <FaSignInAlt /> Login
       </h1>
-      <p>Please enter your account</p>
+      <p>Login and start setting goals</p>
     </section>
 
     <section className="form">
